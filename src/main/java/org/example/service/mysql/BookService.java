@@ -1,11 +1,10 @@
-package org.example.service;
+package org.example.service.mysql;
 
 import jakarta.transaction.Transactional;
-import org.example.entity.Book;
-import org.example.repo.BookRepository;
+import org.example.mysql.entity.Book;
+import org.example.mysql.repo.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Isolation;
 
 @Service
 public class BookService {

@@ -1,4 +1,4 @@
-package org.example.entity;
+package org.example.mysql.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

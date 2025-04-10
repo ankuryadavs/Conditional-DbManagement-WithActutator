@@ -1,7 +1,7 @@
 package org.example.controller;
 
-import org.example.entity.Book;
-import org.example.service.BookService;
+import org.example.mysql.entity.Book;
+import org.example.service.mysql.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@RequestMapping("book/v1")
+@RequestMapping("book")
 public class BookController {
 
     private final BookService bookService;
